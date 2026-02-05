@@ -1,0 +1,306 @@
+name: singularity-forge
+version: "23.0.0"
+description: |
+  SINGULARITY FORGE v21.0.0 - THE SKILL ARCHITECT SUPREME. Universal skill builder for
+  WEB (Next.js/React) and MOBILE (Flutter/Dart 3.x) platforms. World-class skill builder with
+  70-Gate verification, 9 Dimensions, 6 APEX Laws compliance, Auto-Heal protocol, and
+  Skill Metrics analytics. Builds GOD-TIER Claude Code skills from scratch or upgrades
+  existing ones. Triggers: build/create/forge/validate/upgrade/heal/metrics/self-evolve/research/test/benchmark skill.
+  Flutter triggers: flutter forge/flutter skill/new flutter skill/mobile skill.
+  Self-evolving skill builder with Context7 integration, Memory MCP learning,
+  DRAGIN uncertainty detection, Reflexion loop, and OWASP LLM Top 10 security.
+  Features: Progressive disclosure, token ROI scoring, automatic gate fixing, health
+  dashboards, prompt engineering patterns, self-evolution protocol, research-first workflow,
+  meta-prompting, reflexion loop, Context7 integration, Memory MCP integration.
+  THE meta-skill for building world-class skills for ALL platforms.
+
+inherits:
+  - ~/.claude/MASTER_COORDINATE.md
+  - shared-protocols/rtl-verification.md
+
+phase: META
+platforms:
+  - web: Next.js, React, TypeScript
+  - mobile: Flutter/Dart 3.x, Riverpod
+role: SKILL_ARCHITECT_SUPREME
+
+triggers:
+  # General skill building
+  - build skill
+  - create skill
+  - new skill
+  - forge skill
+  - skill architecture
+  - scaffold skill
+  - validate skill
+  - upgrade skill
+  - skill template
+  - skill structure
+  - make a skill
+  - heal skill
+  - fix skill
+  - skill metrics
+  - skill health
+  - skill analytics
+  - skill roi
+  - optimize skill
+  - improve skill
+  - self evolve
+  - self improve
+  - research skill
+  - benchmark skill
+  - test skill
+  - wizard mode
+  - compose skills
+  - security audit skill
+  - observe skill
+  - wizard skill
+  - memory patterns
+  - upgrade singularity
+  # Flutter/Mobile specific triggers
+  - flutter forge
+  - flutter skill
+  - new flutter skill
+  - mobile skill
+  - forge flutter
+  - dart skill
+  - riverpod skill
+  - mobile forge
+
+allowed_tools:
+  - Read
+  - Write
+  - Edit
+  - Glob
+  - Grep
+  - Bash
+  - WebFetch
+  - WebSearch
+  - Task
+
+commands:
+  # General skill commands
+  - name: /forge [description]
+    description: Build GOD-TIER skill from description (auto-detects platform)
+  - name: /forge --scaffold [name]
+    description: Create skill directory structure
+  - name: /forge --validate [path]
+    description: Validate existing skill against 70-Gate matrix
+  - name: /forge --upgrade [path]
+    description: Upgrade skill to latest spec (v21.0.0)
+  - name: /forge --template [type]
+    description: Show template for type (simple/standard/complex/command)
+  - name: /forge --heal [path]
+    description: Auto-heal failed gates (RTL, fillers, line count, etc.)
+  - name: /forge --heal --dry-run [path]
+    description: Preview auto-heal fixes without applying
+  - name: /forge --heal --gate [N] [path]
+    description: Heal specific gate only
+  - name: /forge --metrics [path]
+    description: Show skill metrics (Token ROI, gate pass rate, etc.)
+  - name: /forge --health [path]
+    description: Show skill health dashboard (0-100 score)
+  - name: /forge --trends [path]
+    description: Show version trends and improvements
+  - name: /forge --compare [a] [b]
+    description: Compare two skill versions
+  - name: /forge --self-evolve
+    description: Trigger self-evolution protocol (research + gap analysis + upgrade)
+  - name: /forge --research [domain]
+    description: Research domain best practices before building
+  - name: /forge --test [path]
+    description: Generate comprehensive tests for skill
+  - name: /forge --benchmark [path]
+    description: Run benchmark validation against quality standards
+  - name: /forge --wizard
+    description: Interactive wizard mode for guided skill creation
+  - name: /forge --compose [skills...]
+    description: Compose multiple skills into unified workflow
+  - name: /forge --security [path]
+    description: Security audit skill for vulnerabilities
+  - name: /forge --observe [path]
+    description: Observe skill execution and collect metrics
+  - name: /forge --memory
+    description: Query Memory MCP for learned patterns and institutional knowledge
+  # Flutter/Mobile specific commands
+  - name: /forge --flutter [name]
+    description: Create Flutter/Dart skill with mobile-specific gates
+  - name: /forge --flutter --template
+    description: Display Flutter skill template structure
+  - name: /forge --flutter --validate [skill]
+    description: Run 70-Gate + F1-F15 Flutter verification
+  - name: /forge --flutter --audit
+    description: Audit skill for RTL (EdgeInsetsDirectional) and responsive (48dp) compliance
+
+skill_types:
+  - type: Simple
+    lines: "<200"
+    structure: "SKILL.md only"
+    use_when: "Single-purpose, minimal logic"
+  - type: Standard
+    lines: "<400"
+    structure: "SKILL.md + references/"
+    use_when: "Multi-step workflow, domain knowledge"
+  - type: Complex
+    lines: "<500"
+    structure: "SKILL.md + references/ + scripts/"
+    use_when: "MCP, subagents, external tools"
+  - type: Command
+    lines: "<100"
+    structure: "Single .md file"
+    use_when: "User-initiated /command"
+
+gate_clusters:
+  - cluster: 1
+    name: GENESIS_IDENTITY
+    gates: "1-7"
+  - cluster: 2
+    name: LAW_ALIGNMENT
+    gates: "8-14"
+  - cluster: 3
+    name: COGNITIVE_STABILITY
+    gates: "15-21"
+  - cluster: 4
+    name: XML_SEMANTICS
+    gates: "22-28"
+  - cluster: 5
+    name: EXORCIST_AUDIT
+    gates: "29-35"
+  - cluster: 6
+    name: SENSATION_UX
+    gates: "36-42"
+  - cluster: 7
+    name: NEURAL_PERFORMANCE
+    gates: "43-49"
+  - cluster: 8
+    name: SCALE
+    gates: "50-52"
+
+auto_healable_gates:
+  - gate: 2
+    issue: "Missing version"
+    fix: "Add version: 1.0.0"
+  - gate: 4
+    issue: "Invalid name format"
+    fix: "Convert to kebab-case"
+  - gate: 6
+    issue: "Broken reference paths"
+    fix: "Create or fix paths"
+  - gate: 11
+    issue: "Filler phrases"
+    fix: "Replace with imperative"
+  - gate: 13
+    issue: "Too many lines"
+    fix: "Split to references/"
+  - gate: 38
+    issue: "Missing tables"
+    fix: "Convert prose to tables"
+  - gate: 40
+    issue: "Passive voice"
+    fix: "Convert to imperative"
+  - gate: 50-52
+    issue: "RTL violations"
+    fix: "Replace ml/mr with ms/me (web) or EdgeInsets with EdgeInsetsDirectional (Flutter)"
+
+# Flutter-specific gates (F1-F15) - applied when platform is mobile
+flutter_gates:
+  - gate: F1
+    name: Platform_Channel
+    check: "Pigeon preferred over MethodChannel"
+  - gate: F2
+    name: Riverpod_Purity
+    check: "@riverpod annotation, no legacy providers"
+  - gate: F3
+    name: Firebase_Security
+    check: "Security rules configured"
+  - gate: F4
+    name: Offline_First
+    check: "Local DB as source of truth"
+  - gate: F5
+    name: Deep_Link
+    check: "GoRouter TypedGoRoute"
+  - gate: F6
+    name: Notifications
+    check: "FCM + APNs setup"
+  - gate: F7
+    name: Biometric
+    check: "local_auth patterns"
+  - gate: F8
+    name: Assets
+    check: "WebP/AVIF formats"
+  - gate: F9
+    name: L10n
+    check: "ARB files with full coverage"
+  - gate: F10
+    name: Gradle
+    check: "AGP 8.2+ configured"
+  - gate: F11
+    name: Xcode
+    check: "iOS 15+ minimum"
+  - gate: F12
+    name: Permissions
+    check: "permission_handler usage"
+  - gate: F13
+    name: GoRouter
+    check: "TypedGoRoute annotations"
+  - gate: F14
+    name: Sync
+    check: "Optimistic updates implemented"
+  - gate: F15
+    name: Impeller
+    check: "No Skia-only code"
+
+# Flutter skill verification gates (VS1-VS8)
+flutter_verification_gates:
+  - gate: VS1
+    name: Structure
+    check: "SKILL.md + references/ exist"
+  - gate: VS2
+    name: Metadata
+    check: "All cognitive fields present"
+  - gate: VS3
+    name: Lint
+    check: "dart analyze passes"
+  - gate: VS4
+    name: Coverage
+    check: "Examples have tests"
+  - gate: VS5
+    name: Docs
+    check: "All commands documented"
+  - gate: VS6
+    name: DNA_Lock
+    check: "Integrity hash verified"
+  - gate: VS7
+    name: RTL
+    check: "EdgeInsetsDirectional only"
+  - gate: VS8
+    name: Responsive
+    check: "48dp touch targets"
+
+token_roi_formula: "(Distinct Capabilities) / (SKILL.md Token Count) × 100"
+
+token_roi_ratings:
+  god_tier: "> 1.0"
+  excellent: "0.5 - 1.0"
+  good: "0.2 - 0.5"
+  needs_work: "< 0.2"
+
+references:
+  skill_types: references/skill-types.md
+  build_phases: references/build-phases.md
+  token_economics: references/token-economics.md
+  validation_rules: references/validation-rules.md
+  prime_directives: references/prime-directives.md
+  security_guidelines: references/security-guidelines.md
+  gate_matrix: references/gate-matrix.md
+  gates_detailed: references/70-gates.md
+  examples: references/examples.md
+  patterns: references/patterns.md
+  apex_laws: references/apex-laws.md
+  dimensions: references/9-dimensions.md
+  skill_template: references/skill-template.md
+  skill_testing: references/skill-testing.md
+  skill_validation: references/skill-validation.md
+  auto_heal: references/auto-heal.md
+  prompt_engineering: references/prompt-engineering.md
+  skill_metrics: references/skill-metrics.md
