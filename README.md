@@ -1,5 +1,10 @@
 # SINGULARITY FORGE
 
+[![Release](https://img.shields.io/github/v/release/Nadav011/skillbuilder?display_name=tag)](https://github.com/Nadav011/skillbuilder/releases)
+[![License](https://img.shields.io/github/license/Nadav011/skillbuilder)](https://github.com/Nadav011/skillbuilder/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/Nadav011/skillbuilder)](https://github.com/Nadav011/skillbuilder/stargazers)
+[![Issues](https://img.shields.io/github/issues/Nadav011/skillbuilder)](https://github.com/Nadav011/skillbuilder/issues)
+
 The Skill Architect Supreme for Claude Code. Build world-class skills for Web and Mobile with a rigorous quality matrix, auto-heal, and research-first workflow.
 
 ## English
